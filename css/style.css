@@ -35,21 +35,18 @@ body{
     background-color: violet;
     border: 3px solid black;
 }
-
+/* classe in comune per tutti i bottoni blu */
 .button{
     background-color: #0061ff;
     color: #d9e8ff;
     padding: 0.5rem 1.3rem;
 }
-
 /* HEADER*/
 header{
     width: 100%;
-    /* debug */
-    min-height: 700px;
+    height: 570px;
     background-color: #b4d0e7;
-    border: 3px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 /* classe per la barra dell'header */
 .bar-header{
@@ -61,8 +58,6 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* debug */
-    height: 80px;
     background-color: #ffffff;
 }
 /* classe per il blocco della barra dell'header di sinistra */
@@ -73,54 +68,62 @@ header{
 .bar-r{
     padding: 1.5rem;
 }
-
 /* classe per la lista dentro la barra dell'header */
 header ul{
     list-style-type: none;
     display: flex;
 }
+/* classe per i li dentro la lista dell'header */
 header li{
     margin-right: 20px;
 }
-
+/* classe per le a dentro l'header */
 header a{
     text-decoration: none;
     color: black;
 }
-
+/* classe per il nome di dropbox dentro la barra dell'header */
 .name{
     font-weight: bold;
     font-size: 1.2rem;
+}
+/* id per colorare di blu il simbolo di dropbox */
+#blue{
+    color: #0061ff;
 }
 /* classe per il titolo */
 .titolo{
     /* margine per spingere il titolo sotto l'header */
     margin-top: 100px;
-    text-align: center;
-    /* debug */
-    background-color: lightcyan;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
 }
 /* classe per l'hero dentro l'header */
 .hero{
     display: flex;
-    justify-content: space-evenly;
-    /* debug */
-    min-height: 500px;
-    background-color: lightgreen;
+    justify-content: space-between;
 }
 /* classe per la colonna di sinistra dell'hero */
 .col-s{
     width: 30%;
-    /* debug */
-    height: 500px;
-    background-color: red;
+}
+/* classe per il testo dell'hero */
+.testo-hero{
+    padding-bottom: 2rem;
+}
+/* classe per il testo sotto il bottone dell'hero */
+.testo-hero-sotto{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* classe per la freccia dell'hero */
+.freccia-hero{
+    font-size: 3rem;
 }
 /* classe per la colonna di destra dell'hero */
 .col-b{
+    padding: 1rem;
     width: 60%;
-    /* debug */
-    height: 500px;
-    background-color: aqua;
 }
 /* MAIN */
 /* PRIMO BLOCCO */
