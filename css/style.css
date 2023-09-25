@@ -24,18 +24,12 @@ img{
     margin-bottom: 100px;
 }
 .container-ss{
-    margin: 0 auto;
+    margin: 100px auto;
     width: 1000px;
     /* debug */
-    min-height: 1000px;
+    min-height: 600px;
     background-color: violet;
-    margin-bottom: 100px;
-}
-.block{
-    width: 100%;
-    /* debug */
-    min-height: 500px;
-    background-color: blue;
+    border: 3px solid black;
 }
 /* HEADER*/
 header{
@@ -195,4 +189,61 @@ header{
     border: 3px solid red;
     margin-bottom: 100px;
 }
-
+/* BLOCCO SUPERIORE CON I QUADRATI */
+/*classe per il blocco principale superiore */
+.block-up{
+    width: 100%;
+    /* debug */
+    min-height: 500px;
+    background-color: blue;
+    border: 3px solid black;
+}
+/* classe per la riga del blocco */
+.row-blockup{
+    display: flex;
+    justify-content: space-between;
+}
+/* classe per la colonna del blocco */
+.col-blockup{
+    width: 33%;
+     /* debug */
+    min-height: 500px;
+    background-color: aliceblue;
+}
+/* classe per la colonna speciale del blocco */
+.col-blockup-s{
+    width: 33%;
+     /* debug */
+    min-height: 500px;
+    background-color: gray;
+}
+/* BLOCCO INFERIORE */
+/* classe del blocco inferiore */
+.block-under{
+    width: 100%;
+     /* debug */
+    min-height: 300px;
+    background-color: lightblue;
+    border: 3px solid black;
+}
+/*classe della riga del blocco inferiore */
+.row-under{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+/* classe della colonna grande del blocco inferiore */
+.col-underb{
+    width: 60%;
+     /* debug */
+    min-height: 300px;
+    background-color: red;
+}
+/* classe della colonna piccola del blocco inferiore */
+.col-unders{
+    width: 35%;
+     /* debug */
+    min-height: 300px;
+    background-color: teal;
+}
