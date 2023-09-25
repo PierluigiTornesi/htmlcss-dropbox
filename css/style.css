@@ -8,6 +8,10 @@
 img{
     max-width: 100%;
 }
+/* classe per il body */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /* COMMON CLASS */
 /* classe in comune per i container grandi (larghezza maggiore)*/
 .container-b{
@@ -31,38 +35,67 @@ img{
     background-color: violet;
     border: 3px solid black;
 }
+
+.button{
+    background-color: #0061ff;
+    color: #d9e8ff;
+    padding: 0.5rem 1.3rem;
+}
+
 /* HEADER*/
 header{
     width: 100%;
     /* debug */
     min-height: 700px;
-    background-color: lightblue;
+    background-color: #b4d0e7;
     border: 3px solid black;
     margin-bottom: 100px;
 }
 /* classe per la barra dell'header */
 .bar-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
     display: flex;
     justify-content: space-between;
     width: 100%;
     /* debug */
     height: 80px;
-    background-color: green;
+    background-color: #ffffff;
 }
 /* classe per il blocco della barra dell'header di sinistra */
 .bar-l{
-    /* debug */
-    background-color: gray;
-    width: 400px;
+    padding: 1.5rem;
 }
 /* classe per il blocco della barra dell'header di destra */
 .bar-r{
-    /* debug */
-    background-color: gray;
-    width: 400px;
+    padding: 1.5rem;
+}
+
+/* classe per la lista dentro la barra dell'header */
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+header li{
+    margin-right: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 /* classe per il titolo */
 .titolo{
+    /* margine per spingere il titolo sotto l'header */
+    margin-top: 100px;
     text-align: center;
     /* debug */
     background-color: lightcyan;
