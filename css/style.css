@@ -247,3 +247,52 @@ header{
     min-height: 300px;
     background-color: teal;
 }
+/* FOOTER */
+/* classe del footer */
+footer{
+    /* debug */
+    background-color: black;
+    min-height: 500px;
+    width: 100%;
+}
+/* classe del blocco del footer */
+.block-footer{
+    /* debug */
+    width: 70%;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* classe per la parte superiore del footer */
+.fot-up{
+    padding: 1rem;
+    width: 100%;
+    /* debug */
+    min-height: 350px;
+    background-color: greenyellow;
+    border: 3px solid red;
+}
+/* classe per la parte inferiore del footer */
+.fot-under{
+   width: 100%;
+   /* debug */
+   min-height: 100px;
+   background-color: aquamarine;
+   border: 3px solid red;
+}
+/* classe per la riga del footer superiore */
+.row-fot-up{
+    display: flex;
+    justify-content: space-around;
+}
+/* classe per le colonne del footer superiore */
+.col-fot-up{
+    width: 15%;
+    /* debug */
+    min-height: 300px;
+    background-color: lightseagreen;
+    border: 3px solid black;
+}
