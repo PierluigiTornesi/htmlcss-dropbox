@@ -9,10 +9,31 @@ img{
     max-width: 100%;
 }
 /* COMMON CLASS */
-/* classe in comune per i container grandi */
+/* classe in comune per i container grandi (larghezza maggiore)*/
 .container-b{
     margin:0 auto;
-    width: 1100px;
+    width: 1200px;
+}
+/* classe in comune per i container piccoli (larghezza minore) */
+.container-s{
+    margin: 0 auto;
+    width: 1000px;
+    /* debug */
+    min-height: 3000px;
+    background-color: gray;
+}
+.container-ss{
+    margin: 0 auto;
+    width: 1000px;
+    /* debug */
+    min-height: 1000px;
+    background-color: violet;
+}
+.block{
+    width: 100%;
+    /* debug */
+    min-height: 500px;
+    background-color: blue;
 }
 /* HEADER*/
 header{
@@ -20,6 +41,7 @@ header{
     /* debug */
     min-height: 700px;
     background-color: lightblue;
+    border: 3px solid black;
 }
 /* classe per la barra dell'header */
 .bar-header{
@@ -34,13 +56,13 @@ header{
 .bar-l{
     /* debug */
     background-color: gray;
-    width: 500px;
+    width: 400px;
 }
 /* classe per il blocco della barra dell'header di destra */
 .bar-r{
     /* debug */
     background-color: gray;
-    width: 500px;
+    width: 400px;
 }
 /* classe per il titolo */
 .titolo{
@@ -70,3 +92,68 @@ header{
     height: 500px;
     background-color: aqua;
 }
+/* MAIN */
+/* PRIMO BLOCCO */
+/* classe per il bordo del primo blocco */
+.primo-blocco{
+    /* debug */
+    border: 3px solid black;
+}
+/* classe per il blocco con 3 colonne */
+.col-3{
+    width: 100%;
+    /* debug */
+    min-height: 600px;
+    background-color: pink;
+    padding: 1rem;
+}
+/* classe per la riga del primo blocco */
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    /* debug */
+    background-color: aquamarine;
+}
+/* classe per le colonne del primo blocco */
+.col{
+    width: 30%;
+    /* debug */
+    min-height: 550px;
+    background-color: yellow;
+}
+/* SECONDO BLOCCO */
+/* classe per il bordo del secondo blocco */
+.secondo-blocco{
+    /* debug */
+    border: 3px solid red;
+}
+/* classe del rettangolo del secondo blocco */
+.rettangolo{
+    /* debug */
+    margin-top: 10px;
+    min-height: 300px;
+    width: 100%;
+    background-color: violet;
+}
+/* classe della riga del secondo blocco */
+.rowp{
+    display: flex;
+    justify-content: space-evenly;
+    /* debug */
+    background-color: aquamarine;
+}
+/* classe della colonna piú grande del secondo blocco */
+.colb{
+    width: 60%;
+    /* debug */
+    min-height: 550px;
+    background-color: yellow;
+}
+/* classe della colonna piú piccola del secondo blocco */
+.cols{ 
+    width: 35%;
+    /* debug */
+    min-height: 550px;
+    background-color:pink;
+}
+
