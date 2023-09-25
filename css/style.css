@@ -20,7 +20,8 @@ img{
     width: 1000px;
     /* debug */
     min-height: 3000px;
-    background-color: gray;
+    border: 3px solid black;
+    margin-bottom: 100px;
 }
 .container-ss{
     margin: 0 auto;
@@ -28,6 +29,7 @@ img{
     /* debug */
     min-height: 1000px;
     background-color: violet;
+    margin-bottom: 100px;
 }
 .block{
     width: 100%;
@@ -42,6 +44,7 @@ header{
     min-height: 700px;
     background-color: lightblue;
     border: 3px solid black;
+    margin-bottom: 100px;
 }
 /* classe per la barra dell'header */
 .bar-header{
@@ -97,7 +100,8 @@ header{
 /* classe per il bordo del primo blocco */
 .primo-blocco{
     /* debug */
-    border: 3px solid black;
+    border: 3px solid green;
+    margin-bottom: 100px;
 }
 /* classe per il blocco con 3 colonne */
 .col-3{
@@ -126,6 +130,7 @@ header{
 .secondo-blocco{
     /* debug */
     border: 3px solid red;
+    margin-bottom: 100px;
 }
 /* classe del rettangolo del secondo blocco */
 .rettangolo{
@@ -155,5 +160,39 @@ header{
     /* debug */
     min-height: 550px;
     background-color:pink;
+}
+/* TERZO BLOCCO */
+/* classe per il terzo blocco */
+.terzo-blocco{
+    /* debug */
+    border: 3px solid cyan;
+    margin-bottom: 100px;
+}
+
+/* classe per la riga del terzo blocco */
+.rowtb{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* debug */
+    background-color: lightgreen;
+}
+/* classe per le colonne del terzo blocco */
+.coltb{
+    width: 30%;
+    /* debug */
+    min-height: 500px;
+    background-color: red;
+}
+/* QUARTO BLOCCO */
+/* classe del quarto blocco */
+.quarto-blocco{
+    width: 100%;
+    /* debug */
+    min-height: 400px;
+    background-color:lightblue;
+    border: 3px solid red;
+    margin-bottom: 100px;
 }
 
