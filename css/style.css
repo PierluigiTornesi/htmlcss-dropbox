@@ -44,7 +44,7 @@ body{
 /* HEADER*/
 header{
     width: 100%;
-    height: 570px;
+    height: 600px;
     background-color: #b4d0e7;
     margin-bottom: 80px;
 }
@@ -94,7 +94,8 @@ header a{
 /* classe per il titolo */
 .titolo{
     /* margine per spingere il titolo sotto l'header */
-    margin-top: 100px;
+    margin-top: 80px;
+    padding-top: 2rem;
     font-size: 2.5rem;
     padding-bottom: 1rem;
 }
