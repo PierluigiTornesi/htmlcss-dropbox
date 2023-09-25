@@ -4,6 +4,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* reset img */
 img{
     max-width: 100%;
+}
+/* COMMON CLASS */
+/* classe in comune per i container grandi */
+.container-b{
+    margin:0 auto;
+    width: 1100px;
+}
+/* HEADER*/
+header{
+    width: 100%;
+    /* debug */
+    min-height: 700px;
+    background-color: lightblue;
+}
+/* classe per la barra dell'header */
+.bar-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* debug */
+    height: 80px;
+    background-color: green;
+}
+/* classe per il blocco della barra dell'header di sinistra */
+.bar-l{
+    /* debug */
+    background-color: gray;
+    width: 500px;
+}
+/* classe per il blocco della barra dell'header di destra */
+.bar-r{
+    /* debug */
+    background-color: gray;
+    width: 500px;
+}
+/* classe per il titolo */
+.titolo{
+    text-align: center;
+    /* debug */
+    background-color: lightcyan;
+}
+/* classe per l'hero dentro l'header */
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    /* debug */
+    min-height: 500px;
+    background-color: lightgreen;
+}
+/* classe per la colonna di sinistra dell'hero */
+.col-s{
+    width: 30%;
+    /* debug */
+    height: 500px;
+    background-color: red;
+}
+/* classe per la colonna di destra dell'hero */
+.col-b{
+    width: 60%;
+    /* debug */
+    height: 500px;
+    background-color: aqua;
 }
