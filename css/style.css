@@ -333,3 +333,34 @@ footer{
     background-color: lightseagreen;
     border: 3px solid black;
 }
+
+
+/* FOOTER */
+/* classe per le lista del footer */
+footer ul{
+    list-style-type: none;
+}
+/* classe per i li del footer */
+footer li{
+    margin-top: 1rem;
+}
+/* classe per gli a del footer */
+footer a{
+    text-decoration: none;
+    color: white;
+}
+/* classe per il titolo della lista del footer */
+footer h3{
+    color: white;
+}
+/* classe per la riga del footer */
+footer hr{
+    background-color: white;
+    width: 10%;
+    margin-left: 3rem;
+}
+/* classe per il testo del footer */
+.testo-footer{
+    color: white;
+    margin-left: 3rem;
+}
