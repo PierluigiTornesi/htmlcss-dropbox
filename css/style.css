@@ -216,41 +216,63 @@ header a{
 .spunta-blue{
     color: #2b84ff;
 }
+/* classe del rettangolo del secondo blocco */
+.rettangolo{
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 100%;
+}
+/* classe per la riga  */
+.row-info-card{
+    display: flex;
+}
+/* classe per la colonna piú grande  */
+.col-info-b{
+    width: 70%;
+    padding: 1.5rem;
+}
+/* classe per la scritta dentro la colonna */
+.col-info-b p{
+    font-weight: bold;
+}
+/* classe per la colonna piú piccola */
+.col-info-s{
+    width: 30%;
+    padding-top: 1rem;
+}
+/* classe per il bottone nella colonna piú piccola */
+.col-info-s a{
+    text-decoration: none;
+}
 /* SECONDO BLOCCO */
 /* classe per il bordo del secondo blocco */
 .secondo-blocco{
-    /* debug */
-    border: 3px solid red;
     margin-bottom: 100px;
-}
-/* classe del rettangolo del secondo blocco */
-.rettangolo{
-    /* debug */
-    margin-top: 10px;
-    min-height: 300px;
-    width: 100%;
-    background-color: violet;
 }
 /* classe della riga del secondo blocco */
 .rowp{
     display: flex;
     justify-content: space-evenly;
-    /* debug */
-    background-color: aquamarine;
 }
 /* classe della colonna piú grande del secondo blocco */
 .colb{
     width: 60%;
-    /* debug */
-    min-height: 550px;
-    background-color: yellow;
 }
 /* classe della colonna piú piccola del secondo blocco */
 .cols{ 
     width: 35%;
-    /* debug */
-    min-height: 550px;
-    background-color:pink;
+}
+/* classe per il titolo del secondo blocco */
+.cols h3{
+    font-size: 1.5rem;
+}
+/* classe per il bottone del blocco */
+.special-b{
+    border: 2px solid gray;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1.3rem;
 }
 /* TERZO BLOCCO */
 /* classe per il terzo blocco */
