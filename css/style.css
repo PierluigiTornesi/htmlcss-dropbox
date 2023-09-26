@@ -219,7 +219,7 @@ header a{
 /* classe del rettangolo del secondo blocco */
 .rettangolo{
     border: 1px solid gray;
-    margin-top: 10px;
+    margin-top: 100px;
     width: 100%;
 }
 /* classe per la riga  */
@@ -277,36 +277,35 @@ header a{
 /* TERZO BLOCCO */
 /* classe per il terzo blocco */
 .terzo-blocco{
-    /* debug */
-    border: 3px solid cyan;
     margin-bottom: 100px;
 }
 
+.titolo-tb{
+    font-size: 1.5rem;
+}
 /* classe per la riga del terzo blocco */
 .rowtb{
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* debug */
-    background-color: lightgreen;
 }
 /* classe per le colonne del terzo blocco */
 .coltb{
     width: 30%;
-    /* debug */
-    min-height: 500px;
-    background-color: red;
 }
 /* QUARTO BLOCCO */
 /* classe del quarto blocco */
 .quarto-blocco{
     width: 100%;
-    /* debug */
-    min-height: 400px;
-    background-color:lightblue;
-    border: 3px solid red;
-    margin-bottom: 100px;
+    padding: 1rem;
+}
+.qb-titolo{
+    font-size: 1.7rem;
+    width: 70%;
+}
+.qb-link a{
+    color: #0f11ef ;
 }
 /* BLOCCO SUPERIORE CON I QUADRATI */
 /*classe per il blocco principale superiore */
