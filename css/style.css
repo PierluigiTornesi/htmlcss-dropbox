@@ -279,7 +279,7 @@ header a{
 .terzo-blocco{
     margin-bottom: 100px;
 }
-
+/* classe per il titolo del terzo blocco */
 .titolo-tb{
     font-size: 1.5rem;
 }
@@ -300,10 +300,12 @@ header a{
     width: 100%;
     padding: 1rem;
 }
+/* classe per il titolo del quarto blocco */
 .qb-titolo{
     font-size: 1.7rem;
     width: 70%;
 }
+/* classe per il link del quarto blocco */
 .qb-link a{
     color: #0f11ef ;
 }
