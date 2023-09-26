@@ -313,10 +313,7 @@ header a{
 /*classe per il blocco principale superiore */
 .block-up{
     width: 100%;
-    /* debug */
     min-height: 500px;
-    background-color: blue;
-    border: 3px solid black;
 }
 /* classe per la riga del blocco */
 .row-blockup{
@@ -326,16 +323,43 @@ header a{
 /* classe per la colonna del blocco */
 .col-blockup{
     width: 33%;
-     /* debug */
-    min-height: 500px;
-    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* classe per i quadrati */
+.square{
+    width: 50%;
+    height: 50%;
+}
+/* classi per i colori dei quadrati */
+.s-green{
+    background-color: #a2d39b;
+}
+.s-purple{
+    background-color: #61082b;
+}
+.s-cyan{
+    background-color: #0093ce;   
+}
+.s-red{
+    background-color: #ff1c1c;
+}
+.s-reds{
+    background-color: #d5001f;
+}
+.s-light-blue{
+    background-color: #b4d0e7;
+}
+.s-blue{
+    background-color:#0d2481;
+}
+.s-yellow{
+    background-color: #ffd830;
 }
 /* classe per la colonna speciale del blocco */
 .col-blockup-s{
     width: 33%;
-     /* debug */
     min-height: 500px;
-    background-color: gray;
 }
 /* BLOCCO INFERIORE */
 /* classe del blocco inferiore */
