@@ -485,8 +485,18 @@ footer{
     width: 20%;
     padding-bottom: 1rem;
 }
-
-
+/* classe della risposta */
+.risposta{
+    display: none;
+}
+/* classe per far apparire la risposta quando si va sopra il blocco della domanda con la risposta */
+.domanda-frequente:hover .risposta{
+    display: block;
+}
+/* classe per far ruotare il simbolo */
+.domanda-frequente:hover .simbolo-risposta{
+    rotate: 180deg;
+}
 /* FOOTER */
 /* classe per le lista del footer */
 footer ul{
