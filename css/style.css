@@ -430,22 +430,21 @@ header a{
     background-color: white;
     text-decoration: none;
 }
-
-
+/* classe del container inferiore con le domande */
 .container-ss{
     margin: 100px auto;
     max-width: 1000px;
     width: 60%;
 }
-
+/* classse per la riga del container inferiore */
 .container-ss hr{
     border: 1px solid gray;
 }
-
+/* classe per il titolo delle domande */
 .titolo-domande{
     font-size: 1.3rem;
 }
-
+/* classe per la domanda */
 .domanda{
     display: flex;
     justify-content: space-between;
