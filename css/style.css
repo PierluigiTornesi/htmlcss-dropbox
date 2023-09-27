@@ -47,7 +47,6 @@ body{
 /* HEADER*/
 header{
     width: 100%;
-    height: 800px;
     background-color: #b4d0e7;
     margin-bottom: 100px;
 }
@@ -113,16 +112,16 @@ header a{
 }
 /* classe per il testo dell'hero */
 .testo-hero{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 /* classe per il testo sotto il bottone dell'hero */
 .testo-hero-sotto{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 /* classe per la freccia dell'hero */
 .freccia-hero{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 /* classe per la colonna di destra dell'hero */
 .col-b{
@@ -139,6 +138,11 @@ header a{
 .titolo-s{
     padding: 1rem;
     font-size: 1.5rem;
+}
+/* classe per i bottoni della */
+.fatturazione-btn{
+    font-size:  1.3rem;
+    padding: 1rem;
 }
 /* classe per il blocco con 3 colonne */
 .col-3{
@@ -304,6 +308,7 @@ header a{
 .qb-titolo{
     font-size: 1.7rem;
     width: 70%;
+    margin-bottom: 2rem;
 }
 /* classe per il link del quarto blocco */
 .qb-link a{
@@ -329,7 +334,7 @@ header a{
 /* classe per i quadrati */
 .square{
     width: 50%;
-    height: 50%;
+    aspect-ratio: 1/1;
 }
 /* classi per i colori dei quadrati */
 .s-green{
@@ -356,10 +361,36 @@ header a{
 .s-yellow{
     background-color: #ffd830;
 }
+/* classe per il container del quadrato */
+.square-img{
+    width: 100%;
+    height: 100%;
+}
+/* classe del container dell'immagine nel quadrato */
+.container-img{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* classe dell'immagine nel quadrato */
+.special-img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+
 /* classe per la colonna speciale del blocco */
 .col-blockup-s{
     width: 33%;
-    min-height: 500px;
+    font-size: 1.2rem;
+    overflow-y: auto;
 }
 /* BLOCCO INFERIORE */
 /* classe del blocco inferiore */
