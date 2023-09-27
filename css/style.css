@@ -485,6 +485,9 @@ footer{
     width: 20%;
     padding-bottom: 1rem;
 }
+.domanda p{
+    font-weight: bold;
+}
 /* classe della risposta */
 .risposta{
     display: none;
